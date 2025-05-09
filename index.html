@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>رزومه اسما کولی‌وند</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+  <header>
+    <div class="header-right">
+      <img src="avatar.png" alt="عکس پرسنلی" class="avatar" />
+    </div>
+    <div class="header-left">
+      <h1>اسما کولی‌وند</h1>
+      <h3>دانش‌آموز رشته شبکه و نرم‌افزار رایانه</h3>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2>درباره من</h2>
+    <p><span id="typed"></span></p>
+    <script>
+      var typed = new Typed("#typed", {
+        strings: ["من دانش‌آموز رشته شبکه و نرم‌افزار رایانه هستم.", "در پایه یازدهم فنی‌حرفه‌ای تحصیل می‌کنم."],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true
+      });
+    </script>
+  </section>
+
+  <section class="skills">
+    <h2>مهارت‌ها</h2>
+    <ul>
+      <li>طراحی وب با HTML, CSS</li>
+      <li>آشنایی با Visual Studio و پروژه‌های ویندوزی</li>
+      <li>توانایی تولید محتوای رزومه‌ای و گرافیکی</li>
+    </ul>
+  </section>
+
+  <section class="portfolio">
+    <h2>نمونه کارها</h2>
+    <ul>
+      <li>پروژه ویندوزی WaterConnection</li>
+      <li>پروژه Lion با استفاده از کنترل Label</li>
+      <li>سایت معرفی ادکلن با Dreamweaver</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>ارتباط با من</h2>
+    <form>
+      <input type="text" placeholder="نام شما" required />
+      <input type="email" placeholder="ایمیل شما" required />
+      <textarea placeholder="پیام شما" required></textarea>
+      <button type="submit">ارسال</button>
+    </form>
+    <div class="icons">
+      <a href="tel:09194017847">📞</a>
+      <a href="https://wa.me/989194017847">واتساپ</a>
+      <a href="https://instagram.com/">اینستاگرام</a>
+    </div>
+  </section>
+</body>
+</html>
